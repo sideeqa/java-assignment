@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Age{
+     public static void main (String[] args){
+     Scanner input = new Scanner (System.in);
+     System.out.println ("input your present age:");
+     int presentAge = input.nextInt();
+     int ageNextYear= presentAge +1;
+     System.out.printf("your present age is %d years, you will be %d years next year%n", presentAge, ageNextYear);
+
+
+
+}
+
+
+
+}
+
+
+
+
+
