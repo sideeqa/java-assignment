@@ -1,35 +1,37 @@
-import java.util Scanner;
-public class creditcard{
-public static void main(string[]args){
-Scanner collector= new Scanner(System.in);
+import java.util.Scanner;
+public class CreditCard{
+public static void main(String[] args){
+Scanner input = new Scanner(System.in);
 
 
 
 
-System,out,println("Enter Bank name");
-string name= input.nextInt();
+System.out.println("Enter Bank name");
+String name= input.nextLine();
 
 
-
-int counter =1;
-
-long unlimitewd =10000000;
-
+//
+//int counter =1;
+//
+//long unlimited =10000000;
+//
 System.out.print("Enter November first balances");
-int firstBalance = input.nextint();
+int firstBalance = input.nextInt();
 
 System.out.print("Enter Total dept in November");
-int firstBalance = input.nextint();
+int total = input.nextInt();
 
 System.out.print("Enter Total credit in November");
-int firstBalance = input.nextint();
+int credit = input.nextInt();
 
 System.out.print("Enter Maximum credit limit");
-int firstBalance = input.nextint();
+int max = input.nextInt();
  
-int newBalance = firstBalance + credit * debit
+int newBalance = firstBalance + total * credit;
 
 
-System.out.printf = New balance is %d%n: newbalances;
+System.out.printf("New balance is %d%n:", newBalance);
 
+}
 
+}
